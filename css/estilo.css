@@ -1,0 +1,320 @@
+/*preços*/
+.product-grid4,.product-grid4 .product-image4{position:relative}
+.product-grid4{font-family:Poppins,sans-serif;text-align:center;border-radius:5px;overflow:hidden;z-index:1;transition:all .3s ease 0s}
+.product-grid4:hover{box-shadow:0 0 10px rgba(0,0,0,.2)}
+.product-grid4 .product-image4 a{display:block}
+.product-grid4 .product-image4 img{width:85%;height:auto;margin: 20px;}
+.product-grid4 .product-discount-label{color:#fff;background-color:#16a085;font-size:13px;font-weight:800;text-transform:uppercase;line-height:45px;height:45px;width:45px;border-radius:50%;position:absolute;left:10px;top:15px;transition:all .3s}
+.product-grid4 .product-discount-label{left:auto;right:10px;background-color:#d7292a}
+.product-grid4 .product-content{padding:25px}
+.product-grid4 .title{font-size:15px;font-weight:400;text-transform:capitalize;margin:0 0 7px;transition:all .3s ease 0s}
+.product-grid4 .title a{color:#222}
+.product-grid4 .title a:hover{color:#16a085}
+.product-grid4 .price{color:#16a085;font-size:17px;font-weight:700;margin:0 2px 15px 0;display:block}
+.product-grid4 .price span{color:#909090;font-size:13px;font-weight:400;letter-spacing:0;text-decoration:line-through;text-align:left;vertical-align:middle;display:inline-block}
+.product-grid4 .add-to-cart{border:1px solid #e5e5e5;display:inline-block;padding:10px 20px;color:#888;font-weight:600;font-size:14px;border-radius:4px;transition:all .3s}
+.product-grid4:hover .add-to-cart{border:1px solid transparent;background:#16a085;color:#fff}
+.product-grid4 .add-to-cart:hover{background-color:#505050;box-shadow:0 0 10px rgba(0,0,0,.5)}
+@media only screen and (max-width:990px){.product-grid4{margin-bottom:30px}
+}
+
+/*fim preços*/
+/*header*/
+.canto{
+  position: absolute;
+  margin-top: 10px;
+  left: 100%;
+  margin-left: -35px;
+}
+.faqHeader {
+  font-size: 27px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width:555px){
+  .logo_name{
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .nav_img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+}
+.nav-header{
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.logo_name{
+  margin-left: 8px;
+  text-shadow: 1px 1px rgba(211, 211, 211, 0.900);
+}
+.nav_img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.navbarra {
+  border-bottom: 1px solid grey;
+  background-color:#ffdf2c;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.navbarra .navbar-brand {
+  font-weight: 800;
+  color: black;
+}
+.navbarra .navbar-toggler {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #31363b;
+}  
+.navbarra .navbar-nav > li.nav-item > a {
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #31363b;
+}
+/*fim header*/
+/*geral*/
+.divisor{
+background-color:#ffdf2c;
+margin-top:-16px;
+margin-bottom:65px;
+}
+body {
+  color: #31363b;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+  
+p {
+  line-height: 1.8;
+  margin: 35px 0;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #212529;
+  transition: all 0.2s;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+blockquote {
+  font-style: italic;
+  color: #868e96;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #0085A1;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}
+/*fim geral*/
+/*home*/
+.navimg {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10vw 35vw;
+  background-image: url("../img/capa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+}
+
+.conteudo_navimg {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+  text-shadow: black 2px 2px;
+  margin-top: -20px;
+}
+
+.conteudo_navimg h1 {
+  color:#ffdf2c;
+}
+/*fim home*/
+/*faq*/
+h2 {
+  font-family: Arial, Verdana;
+  font-weight: 800;
+  font-size: 2.0rem;
+  color: #091f2f;
+  text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #000000;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
+/*fim faq*/
+
+/*footer*/
+footer {
+  background-color: black;
+  color: white;
+}
+
+.social_footer_a { color:#CCC; border:2px solid #CCC; padding:5px; border-radius:50%; margin: 5px;}
+.social_footer_i{  width:20px; height:20px; text-align:center;}
+.footerlink{text-decoration: none; color: white;}
+
+/*map*/
+.map-container-9,
+.map-container-10,
+.map-container-11 {
+overflow:hidden;
+padding-bottom:55%;
+margin-bottom: -30px;
+position:relative;
+height:0;
+}
+.map-container-9 iframe,
+.map-container-10 iframe,
+.map-container-11 iframe{
+left:0;
+top:0;
+height:88%;
+width:100%;
+position:absolute;
+}
+/*fim map*/
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+.copyright-link{
+  color: white;
+}
+/*fim footer*/
+
