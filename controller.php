@@ -7,7 +7,7 @@ if(isset($_POST['login'])){
     $usuario =  $_POST ['usuario'];
     $senha =  $_POST ['senha'];
 
-    $query = "SELECT * FROM adm where usuario_admin = '$usuario' and senha_admin = PASSWORD('{$senha}') ";
+    $query = "SELECT * FROM adm where usuario_admin = '$usuario' and senha_admin = SHA1('$senha') ";
 	$result = mysqli_query($conn, $query);
 	$resultado = mysqli_fetch_assoc($result);
 
